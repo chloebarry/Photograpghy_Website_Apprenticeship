@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AD0D272C-BF28-4240-B71D-E97B251AF24B}"
+	ProjectSection(SolutionItems) = preProject
+		About Me.php = About Me.php
+		Blog.php = Blog.php
+		contact.js = contact.js
+		Contact.php = Contact.php
+		footer.php = footer.php
+		Index.php = Index.php
+		navbar.php = navbar.php
+		Photo Catalogue.php = Photo Catalogue.php
+		Script.js = Script.js
+		StyleSheet.css = StyleSheet.css
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC4F0D6B-0500-4EB9-AE1C-458A9A5802E6}
+	EndGlobalSection
+EndGlobal

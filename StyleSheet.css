@@ -1,0 +1,289 @@
+﻿html, body {
+    font: italic 20px/1 "Playfair Display", serif;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow-x: hidden !important;
+}
+
+/* Nav Bar */
+
+.links {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+   
+}
+
+.links:hover {
+    border-bottom: 2px solid white;
+    color: white;
+}
+
+.nav-link {
+    color: white;
+}
+
+.active {
+    font-weight: bold;
+    border-bottom: 2px solid white;
+}
+
+/* Logo */
+
+#logo {
+    height: 120px;
+}
+
+/* Slideshow */
+
+.carousel-inner {
+    width: 100vw;
+}
+
+.carousel-item {
+    max-height: 80vh;
+}
+
+.carousel-item-image {
+    object-fit: cover;
+    background-attachment: fixed;
+}
+
+
+.carousel-caption {
+    font: italic 40px "Playfair Display", serif;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-nowrap {
+    font-size: 40px;
+}
+
+
+/* Home page Click below*/
+
+h1 {
+    padding: 0;
+    margin: 0;
+}
+
+#position {
+    font: italic 20px "Playfair Display", serif;
+}
+
+h1 {
+    font: italic 30px "Playfair Display", serif;
+    text-align: center;
+}
+
+
+.btn {
+    width: 110px;
+    border-radius: 22px;
+}
+
+
+
+
+/* footer */
+
+#footer {
+    
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+}
+
+
+#footer-para {
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-para-text {
+    margin: 0;
+}
+
+.fa-solid {
+    padding: 5px;
+}
+
+/* Social buttons in the footer*/
+
+
+.socialbtns, .socialbtns ul, .socialbtns li {
+    align-items: center;
+}
+
+#position-Socialbtn {
+    display: flex;
+}
+
+
+.socialbtns ul {
+    list-style: none;
+    
+}
+
+.socialbtns .fa {
+    width: 40px;
+    height: 28px;
+    color: #000;
+    background-color: #FFF;
+    border: 1px solid #000;
+    padding-top: 20px;
+    padding-left: 9px;
+    padding-bottom: 20px;
+    border-radius: 22px;
+}
+
+
+
+    .socialbtns .fa:hover {
+        color: #FFF;
+        background-color: #000;
+    }
+
+
+
+a, a:hover {
+    text-decoration: none;
+}
+
+
+
+/*Blog posts*/
+
+.card-text {
+    margin-top: 2%;
+}
+
+
+
+
+
+/* photo Catalogue */
+
+.list-group-item {
+    flex: 0;
+    border-radius: 999px!important;
+}
+
+
+
+/* Buttons */
+
+.btn-custom, btn-custom.active {
+    background-color: #212529 !important;
+    border-radius: 22px;
+    color: white !important;
+    border: #212529 solid 2px;
+}
+
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.btn-custom:hover {
+    background-color: white !important;
+    color: black !important;
+    border: #212529 solid 2px;
+}
+
+.custom-hover:hover {
+    background-color: white !important;
+    color: black !important;
+    border: #212529 solid 2px;
+}
+
+
+
+.btn-custom2 {
+    background-color: white !important;
+    color: black !important;
+    
+}
+
+.hover:hover {
+    background-color: #212529 !important;
+    color: white !important;
+    border: #212529 solid 2px;
+}
+
+
+
+/*Arrow on the about me */
+
+.arrow {
+    left: 50%;
+    margin-left: 56%;
+    margin-top: -4%;
+    bottom: 0;
+    width: 40px;
+    height: 40px;
+}
+
+.bounce {
+    animation: bouncing 3s infinite cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+@keyframes bouncing {
+    0% {
+        transform: translate(0, 0px);
+        animation-timing-function: cubic-bezier(.19, .28, .27, 1);
+    }
+
+    11% {
+        transform: translate(0, -25px) scaleX(.8);
+        animation-timing-function: cubic-bezier(.57, .01, .84, .5);
+    }
+
+    20% {
+        transform: translate(0, 0px) scaleY(.8);
+        animation-timing-function: cubic-bezier(.19, .28, .27, 1);
+    }
+
+    28% {
+        transform: translate(0, -10px);
+        animation-timing-function: cubic-bezier(.57, .01, .84, .5);
+    }
+
+    36% {
+        transform: translate(0, 0px);
+        animation-timing-function: cubic-bezier(.19, .28, .27, 1);
+    }
+
+    100% {
+        transform: translate(0, 0px);
+        animation-timing-function: cubic-bezier(.19, .28, .27, 1);
+    }
+}
+
+
+
+/* accordian */
+
+.accordion {
+    --bs-accordion-active-bg: black;
+    --bs-accordion-active-color: white;
+    --bs-accordion-btn-focus-border-color: none !important;
+    --bs-accordion-btn-active-icon: white;
+    border: none;
+}
+
